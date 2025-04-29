@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro de Atendimento</title>
+</head>
+<body>
+  <h1>Cadastro de Atendimento</h1>
+  <input type="text" id="nome" placeholder="Digite o nome" />
+  <button onclick="cadastrar()">Cadastrar</button>
+
+  <script src="script.js"></script>
+  <script>
+    function cadastrar() {
+      const nome = document.getElementById('nome').value.trim();
+      if (nome) {
+        adicionarPessoa(nome);
+        alert('Pessoa cadastrada com sucesso!');
+        document.getElementById('nome').value = '';
+      } else {
+        alert('Digite um nome válido.');
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Banco de Dados</title>
+</head>
+<body>
+  <h1>Banco de Dados (LocalStorage)</h1>
+  <pre id="dados"></pre>
+  <button onclick="limparFila()">Limpar Banco de Dados</button>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('dados').textContent = JSON.stringify(getFila(), null, 2);
+  </script>
+</body>
+</html>
