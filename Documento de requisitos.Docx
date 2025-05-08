@@ -20,5 +20,24 @@ RNF02 - Armazenamento em Banco de Dados Relacional: O sistema deve utilizar um b
  
 RNF03 - Tempo de Resposta: As páginas e funcionalidades do sistema devem apresentar tempo de resposta inferior a 2 segundos em condições normais de uso. Prioridade: Importante 
  
-RNF04 - Segurança de Acesso: O sistema deve garantir segurança nas autenticações, utilizando criptografia para armazenamento das senhas dos usuários. Prioridade: Essencial 
+RNF04 - Segurança de Acesso: O sistema deve garantir segurança nas autenticações, utilizando criptografia para armazenamento das senhas dos usuários. Prioridade: Essencial
+ IV. Metodologia 
+ 
+A equipe adotará a metodologia Incremental + Kanban. O desenvolvimento será dividido em módulos independentes, entregues em pequenas versões incrementais do sistema, priorizando funcionalidades essenciais nas primeiras entregas. As tarefas serão organizadas e acompanhadas por meio de um quadro Kanban digital onde cada membro do time poderá visualizar, mover e atualizar o status de suas atividades. A priorização será baseada no valor entregue ao usuário final e na viabilidade técnica. 
+ 
+V. Desafios 
+Garantir a sincronização correta dos horários disponíveis em tempo real. 
+Lidar com diferentes fusos horários, caso o sistema seja utilizado em regiões distintas. 
+Implementar uma interface amigável tanto para desktop quanto para dispositivos móveis. 
+Gerenciar cancelamentos e remarcações sem comprometer a organização da agenda. 
+VI. Histórico de Versões 
+ 
+Versão 
+Data 
+Autor 
+Descrição 
+1.0 
+05/05/2025 
+Almodá L. G. V. Silva 
+Elaboração da documentação do projeto 
   
