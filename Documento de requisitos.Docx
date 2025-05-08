@@ -1,3 +1,24 @@
+Documento de Requisitos 
+ 
+[Atendimento-Fast] 
+ 
+I. Introdução 
+Este sistema tem como objetivo facilitar o agendamento de serviços por parte de clientes, oferecendo uma plataforma simples e eficiente para marcar horários com prestadores de serviço. A proposta é eliminar problemas comuns como agendamentos duplicados, falhas de comunicação e desorganização na gestão de horários. O público-alvo inclui prestadores de serviço autônomos e pequenos negócios que precisam de uma solução prática para organizar suas agendas e atender melhor seus clientes. 
+II. Requisitos funcionais 
+ 
+RF01 - Cadastro de Usuários: O sistema deve permitir o cadastro de usuários, tanto clientes quanto prestadores, informando nome, e-mail, senha, telefone e tipo de conta. Prioridade: Essencial 
+ 
+RF02 - Autenticação de Usuários: O sistema deve permitir o login de usuários cadastrados com validação de e-mail e senha. Prioridade: Essencial 
+ 
+RF03 - Cadastro de Serviços: O administrador poderá cadastrar serviços informando nome, duração, valor e descrição. Prioridade: Essencial 
+ 
+RF04 - Edição e Exclusão de Serviços: O administrador poderá editar ou excluir serviços previamente cadastrados. Prioridade: Importante 
+ 
+RF05 - Definição de Horários: O administrador poderá definir os dias e horários disponíveis para atendimento. Prioridade: Essencial 
+ 
+RF06 - Bloqueio de Horários Ocupados: O sistema deve bloquear automaticamente horários que já estejam agendados ou fora do expediente definido. Prioridade: Essencial 
+ 
+RF07 - Geração de Horários Disponíveis: O sistema deve gerar os horários disponíveis com base na duração dos serviços oferecidos. Prioridade: Essencial 
 RF08 - Agendamento de Serviços: O cliente poderá selecionar um serviço e agendar um horário disponível conforme a agenda do prestador. Prioridade: Essencial 
  
 RF09 - Validação de Conflitos: O sistema deve impedir o agendamento de horários já ocupados ou duplicados. Prioridade: Essencial 
