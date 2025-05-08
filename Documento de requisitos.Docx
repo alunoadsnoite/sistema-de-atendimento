@@ -1,0 +1,24 @@
+RF08 - Agendamento de Serviços: O cliente poderá selecionar um serviço e agendar um horário disponível conforme a agenda do prestador. Prioridade: Essencial 
+ 
+RF09 - Validação de Conflitos: O sistema deve impedir o agendamento de horários já ocupados ou duplicados. Prioridade: Essencial 
+ 
+RF10 - Confirmação de Agendamento: O sistema deve enviar uma confirmação de agendamento para o cliente após a marcação. Prioridade: Essencial 
+ 
+RF11 - Cancelamento e Remarcação: O cliente poderá cancelar ou remarcar um agendamento dentro de um prazo previamente definido. Prioridade: Importante 
+ 
+RF12 - Visualização da Agenda: O administrador poderá visualizar os agendamentos por dia, semana e mês. Prioridade: Importante 
+ 
+RF13 - Gerenciamento de Agendamentos: O administrador poderá cancelar ou remarcar agendamentos diretamente pela agenda. Prioridade: Importante 
+ 
+RF14 - Histórico de Agendamentos: O sistema deve exibir o histórico de agendamentos feitos por cada cliente. Prioridade: Desejável 
+ 
+III. Requisitos não funcionais 
+ 
+RNF01 - Acesso via Navegador: O sistema deve ser acessível através de navegadores modernos, com layout responsivo para dispositivos desktop e mobile. Prioridade: Essencial 
+ 
+RNF02 - Armazenamento em Banco de Dados Relacional: O sistema deve utilizar um banco de dados relacional, para armazenamento das informações. Prioridade: Essencial 
+ 
+RNF03 - Tempo de Resposta: As páginas e funcionalidades do sistema devem apresentar tempo de resposta inferior a 2 segundos em condições normais de uso. Prioridade: Importante 
+ 
+RNF04 - Segurança de Acesso: O sistema deve garantir segurança nas autenticações, utilizando criptografia para armazenamento das senhas dos usuários. Prioridade: Essencial 
+  
