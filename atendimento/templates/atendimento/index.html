@@ -1,0 +1,39 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Atendimento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background-color: #FFE4E1;
+    }
+    h1 {
+      color: #333;
+    }
+    a {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px 25px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sistema de Atendimento</h1>
+  <a href="{% url 'cadastro' %}">Cadastrar Atendimento</a>
+  <a href="{% url 'fila' %}">Fila de Atendimento</a>
+  <a href="{% url 'banco' %}">Banco de Dados</a>
+</body>
+</html>

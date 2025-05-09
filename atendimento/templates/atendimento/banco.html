@@ -1,0 +1,25 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Banco de Dados</title>
+  <style>
+    body {
+      background-color: #FFE4E1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Banco de Dados (LocalStorage)</h1>
+  <pre id="dados"></pre>
+  <button onclick="limparFila()">Limpar Banco de Dados</button>
+  <p><a href="{% url 'index' %}">Voltar</a></p>
+
+  <script src="{% static 'js/script.js' %}"></script>
+  <script>
+    document.getElementById('dados').textContent = JSON.stringify(getFila(), null, 2);
+  </script>
+</body>
+</html>
